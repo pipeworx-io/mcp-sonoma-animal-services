@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-sonoma-animal-services",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sonoma County Animal Services MCP — live shelter intake & outcome records",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-ab5dc4782f8f005914927ab9a3c7414198f29842220a2ffc08a1758622f04db1",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }

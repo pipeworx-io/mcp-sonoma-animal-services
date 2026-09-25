@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/sonoma-animal-services",
   "title": "Sonoma Animal Services",
   "description": "Sonoma County Animal Services MCP — live shelter intake & outcome records",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/sonoma-animal-services",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-sonoma-animal-services",
