@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-sonoma-animal-services",
-  "version": "0.1.2",
-  "description": "Sonoma County Animal Services MCP — live shelter intake & outcome records",
+  "version": "0.2.0",
+  "description": "Sonoma County Animal Services MCP — live shelter intake & outcome records (data.sonomacounty.ca.gov, Socrata SODA API).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-sonoma-animal-services": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "sonoma-animal-services"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-sonoma-animal-services.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/sonoma-animal-services",
   "pipeworx": {
-    "sourceHash": "v1-80d74725179faeeebf12c6d3c8402f823697d131b0e8484145f4e9f7c0faedb5",
-    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
+    "mode": "gateway",
+    "slug": "sonoma-animal-services",
+    "gatewaySlug": "sonoma-animal-services",
+    "sourceHash": "v1-58b6f36f5b97851a1c50cfeac6e2e22c2fea2223016552903c6543f57b65c0e9",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
