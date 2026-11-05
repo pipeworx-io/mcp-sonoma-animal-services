@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-sonoma-animal-services",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Sonoma County Animal Services MCP — live shelter intake & outcome records (data.sonomacounty.ca.gov, Socrata SODA API).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "sonoma-animal-services",
     "gatewaySlug": "sonoma-animal-services",
-    "sourceHash": "v1-58b6f36f5b97851a1c50cfeac6e2e22c2fea2223016552903c6543f57b65c0e9",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-97a14d3a9804b9a8b1e454a43995a26aa21e32c5db787472f9ec890f55848eda",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
